@@ -14,7 +14,11 @@ import { FC } from 'react';
 
 const Home: FC = () => {
   return (
-    <Hero title='Our Corporation' imgAlt='car factory' imgData={homeImg} />
+    <Hero
+      title='Professional Cloud Hosting'
+      imgAlt='car factory'
+      imgData={homeImg}
+    />
   );
 };
 export default Home;
