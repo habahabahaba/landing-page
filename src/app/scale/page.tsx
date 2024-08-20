@@ -7,15 +7,15 @@
 // CSS:
 // Types, interfaces and enumns:
 import { FC } from 'react';
-interface PerformancePageProps {}
+interface ScalePageProps {}
 
-const PerformancePage: FC<PerformancePageProps> = () => {
+const ScalePage: FC<ScalePageProps> = () => {
   // JSX:
   return (
     <div>
-      <h1>Performance Page</h1>
+      <h1>Scale Page</h1>
     </div>
   );
 };
 
-export default PerformancePage;
+export default ScalePage;

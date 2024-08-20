@@ -7,15 +7,15 @@
 // CSS:
 // Types, interfaces and enumns:
 import { FC } from 'react';
-interface PerformancePageProps {}
+interface ReliabilityPageProps {}
 
-const PerformancePage: FC<PerformancePageProps> = () => {
+const ReliabilityPage: FC<ReliabilityPageProps> = () => {
   // JSX:
   return (
     <div>
-      <h1>Performance Page</h1>
+      <h1>Reliability Page</h1>
     </div>
   );
 };
 
-export default PerformancePage;
+export default ReliabilityPage;
