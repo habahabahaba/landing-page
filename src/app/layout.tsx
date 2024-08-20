@@ -1,8 +1,9 @@
 // Next:
 import { Inter } from 'next/font/google';
-import Link from 'next/link';
 // CSS:
 import './globals.css';
+// Components:
+import Navbar from '@/Components/Navbar';
 // Types, interfaces and enumns:
 import type { Metadata } from 'next';
 
@@ -21,12 +22,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <div>
-          <Link href='/'>Home</Link>
-          <Link href='/performance'>Performance</Link>
-          <Link href='/reliability'>Reliability</Link>
-          <Link href='/scale'>Scale</Link>
-        </div>
+        <Navbar />
         {children}
       </body>
     </html>
