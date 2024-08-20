@@ -4,7 +4,10 @@
 // React:
 // Context:
 // Components:
+import Hero from '@/Components/Hero';
 // CSS:
+// Public:
+import reliabilityImg from 'public/reliability.jpg';
 // Types, interfaces and enumns:
 import { FC } from 'react';
 interface ReliabilityPageProps {}
@@ -12,9 +15,11 @@ interface ReliabilityPageProps {}
 const ReliabilityPage: FC<ReliabilityPageProps> = () => {
   // JSX:
   return (
-    <div>
-      <h1>Reliability Page</h1>
-    </div>
+    <Hero
+      title='High reliability hosting'
+      imgAlt='human welder'
+      imgData={reliabilityImg}
+    />
   );
 };
 

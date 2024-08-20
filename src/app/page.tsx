@@ -2,10 +2,10 @@
 // Redux RTK:
 // Store:
 // Next:
-import Image from 'next/image';
 // React:
 // Context:
 // Components:
+import Hero from '@/Components/Hero';
 // CSS:
 // Public:
 import homeImg from 'public/home.jpg';
@@ -14,18 +14,7 @@ import { FC } from 'react';
 
 const Home: FC = () => {
   return (
-    <div>
-      <div className='absolute -z-10 inset-0'>
-        <Image
-          src={homeImg}
-          alt='car factory'
-          fill
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-
-      <h1>Home Page</h1>
-    </div>
+    <Hero title='Our Corporation' imgAlt='car factory' imgData={homeImg} />
   );
 };
 export default Home;
